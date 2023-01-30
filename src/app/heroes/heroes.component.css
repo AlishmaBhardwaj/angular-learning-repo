@@ -1,0 +1,49 @@
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+.heroes li {
+  display: flex;
+}
+
+.hero-button {
+  flex: 1;
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: stretch;
+  height: 2em;
+  margin: 5px auto;
+  padding: 5px 10px;
+  border: transparent;
+  border-radius: 5px;
+  color: rgb(72, 25, 116);
+  font: icon;
+}
+
+.hero-button:hover {
+  color: antiquewhite;
+  background-color: blue;
+}
+
+.hero-button.selected {
+  color: black;
+  background-color: chartreuse;
+}
+
+.hero-button.selected:hover {
+  color: rgb(10, 107, 110);
+  background-color: rgb(228, 172, 53);
+}
+
+.hero-button.selected:active {
+  background-color: black;
+  color: white;
+}
+
+.heroes .name {
+  align-self: center;
+}
